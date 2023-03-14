@@ -12,7 +12,13 @@
 * {
   margin: 0;
   padding: 0; }
-
+  .serviceImg{
+    text-align: center;
+  }
+  .serviceImg img{
+    width: 100%;
+    height: 350px;
+  }
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px; }
@@ -269,7 +275,8 @@ img {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+ }
   .section-heading .line {
     width: 25px;
     height: 5px;
