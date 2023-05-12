@@ -1,0 +1,77 @@
+body {
+    overflow-x: hidden;
+}
+
+.cards {
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2) ;
+    height: 250px;
+    text-align: center;
+    justify-content: center; 
+    margin-top: 10%;
+    /* transform: rotate(-25deg); */
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid maroon;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 13%;
+    margin: 13% 27%;
+    background-color: rgb(82, 154, 154);
+    color: #fff;
+}
+.cards:hover .circle{
+    background:linear-gradient(to top,#f8e9e9,#c19393);
+    color: #000;
+} 
+.cards:hover {
+    
+    transform: rotate(20deg);
+    transition: all 1s ease-in;
+} 
+.Signincard {
+    box-shadow: 2px 2px 2px 2px #c58686;
+    margin-top: 10%;
+    padding: 50px;
+}
+.Signincard .btn {
+    background: linear-gradient(to top , #5b5757,#dda5a5);
+    color: #fff;
+    font-weight: 700;
+font-size: 1.2em;
+border-style: none;
+}
+.Signincard .btn:hover{
+    padding-top: 4px;
+    transition: all  ease-in;
+}
+footer {
+    bottom: 0;
+}
+.table{
+    width: 100%;
+
+}
+.table tr{
+ overflow: scroll;
+}
+.table td img{
+    height: 100px;
+    width: 300px;
+}
+
+a{
+    color: #352e2e;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 1.2em;
+}
+ul li 
+{
+    list-style: none;
+}
+
+
+
